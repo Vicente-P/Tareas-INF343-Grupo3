@@ -1,0 +1,63 @@
+{
+    "products": [
+        {
+            "title": "The Lord of the Rings",
+            "author": "J.R.R. Tolkien",
+            "genre": "Fantasy",
+            "pages": 1224,
+            "publication": "1954",
+            "quantity": 2,
+            "price": 20
+        },
+        {
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "genre": "Fiction",
+            "pages": 336,
+            "publication": "1960",
+            "quantity": 3,
+            "price": 15
+        },
+        {
+            "title": "Harry Potter and the Sorcerer's Stone",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "pages": 320,
+            "publication": "1997",
+            "quantity": 4,
+            "price": 18
+        },
+        {
+            "title": "1984",
+            "author": "George Orwell",
+            "genre": "Dystopian",
+            "pages": 328,
+            "publication": "1949",
+            "quantity": 1,
+            "price": 12.5
+        },
+        {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "genre": "Classic",
+            "pages": 180,
+            "publication": "1925",
+            "quantity": 5,
+            "price": 10
+        }
+    ],
+    "customer": {
+        "name": "John",
+        "lastname": "Doe",
+        "email": "vperezc18@gmail.com",
+        "location": {
+            "address1": "123 Main Street",
+            "address2": "Apt. 1",
+            "city": "Anytown",
+            "state": "CA",
+            "postalCode": "91234",
+            "country": "USA"
+        },
+        "phone": "555-555-5555"
+    }
+}

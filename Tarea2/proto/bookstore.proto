@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+option go_package = "tarea2/proto";
+
+message Product {
+  string title = 1;
+  string author = 2;
+  string genre = 3;
+  int32 pages = 4;
+  string publication = 5;
+  int32 quantity = 6;
+  float price = 7;
+}
+
+message Location {
+  string address1 = 1;
+  string address2 = 2;
+  string city = 3;
+  string state = 4;
+  string postalCode = 5;
+  string country = 6;
+  string phone = 7;
+}
+
+message Customer {
+  string name = 1;
+  string lastname = 2;
+  string email = 3;
+  Location location = 4;
+  string phone = 5;
+}
+
+message Order {
+  string order_id = 1;
+  repeated Product products = 2;
+  Customer customer = 3;
+}
+
+service SalesService {
+  rpc CreateOrder (Order) returns (OrderResponse);
+}
+
+message OrderResponse {
+  string orderID = 1;
+}
+
+
+
